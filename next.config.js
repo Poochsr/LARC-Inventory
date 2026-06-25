@@ -4,3 +4,5 @@ const nextConfig = {
 };
 
 module.exports = nextConfig;
+# show next version (or absence)
+npm ls next --depth=0 || cat package.json | grep '"next"'
